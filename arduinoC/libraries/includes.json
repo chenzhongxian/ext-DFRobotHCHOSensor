@@ -1,0 +1,44 @@
+{
+    "uno": {
+        "DFRobotHCHOSensor.h": {
+            "AllObj": [
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor/uno/DFRobotHCHOSensor.cpp.o",
+                "\\arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\uno\\SoftwareSerial.cpp.o"
+            ],
+            "AllIncludes": [
+                "/arduino/hardware/arduino/avr/cores/arduino",
+                "/arduino/hardware/arduino/avr/variants/standard",
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor",
+                "/arduino/hardware/arduino/avr/libraries/SoftwareSerial"
+            ]
+        }
+    },
+    "mpython": {
+        "DFRobotHCHOSensor.h": {
+            "AllObj": [
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor/mpython/DFRobotHCHOSensor.cpp.o",
+                "\\arduino\\hardware\\dfrobot\\mpython\\libraries\\SoftwareSerial\\mpython\\SoftwareSerial.cpp.o"
+            ],
+            "AllIncludes": [
+                "/arduino/hardware/dfrobot/mpython/cores/esp32",
+                "/arduino/hardware/dfrobot/mpython/variants/mpython",
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor",
+                "/arduino/hardware/dfrobot/mpython/libraries/SoftwareSerial"
+            ]
+        }
+    },
+    "microbit": {
+        "DFRobotHCHOSensor.h": {
+            "AllObj": [
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor/microbit/DFRobotHCHOSensor.cpp.o",
+                "\\arduino\\hardware\\dfrobot\\nRF5\\libraries\\SoftwareSerial\\microbit\\SoftwareSerial.cpp.o"
+            ],
+            "AllIncludes": [
+                "/arduino/hardware/dfrobot/nRF5/cores/nRF5",
+                "/arduino/hardware/dfrobot/nRF5/variants/BBCmicrobit",
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor",
+                "/arduino/hardware/dfrobot/nRF5/libraries/SoftwareSerial"
+            ]
+        }
+    }
+}

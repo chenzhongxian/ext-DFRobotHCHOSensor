@@ -1,0 +1,48 @@
+{
+    "name": {
+        "zh-cn": "HCHO甲醛传感器(SEN0231)",
+        "en": "HCHO Sensor"
+    },
+    "description": {
+        "zh-cn": "可方便的确测量空气中甲醛气体的浓度",
+        "en": "It can be used to measure HCHO in air. Through it, you can know the air quality."
+    },
+    "auther": "铁熊",
+    "email": "xyxybot@gmail.com",
+    "license": "MIT",
+    "isTest": false,
+    "isBoard": false,
+    "id": "HCHO",
+    "platform": [
+        "win"
+    ],
+    "asset": {
+        "arduinoC": {
+            "dir": "arduinoC/",
+            "version": "0.1.0",
+            "board": [
+                "arduino",
+                "arduinounor3",
+                "arduinonano",
+                "leonardo",
+                "mega2560",
+                "esp32",
+                "microbit"
+            ],
+            "main": "main.ts",
+            "files": [
+                "_menus/arduino.json",
+                "_menus/esp32.json",
+                "_menus/microbit.json",
+                "_locales/zh-cn.json",
+                "_images/icon.svg",
+                "libraries/DFRobotHCHOSensor/DFRobotHCHOSensor.cpp",
+                "libraries/DFRobotHCHOSensor/DFRobotHCHOSensor.h",
+                "libraries/includes.json",
+                "libraries/DFRobotHCHOSensor/uno/DFRobotHCHOSensor.cpp.o",
+                "libraries/DFRobotHCHOSensor/mpython/DFRobotHCHOSensor.cpp.o",
+                "libraries/DFRobotHCHOSensor/microbit/DFRobotHCHOSensor.cpp.o"
+            ]
+        }
+    }
+}
