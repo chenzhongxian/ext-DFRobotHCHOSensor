@@ -2,12 +2,15 @@
 
 ![](./arduinoC/_images/featured.png)
 
----------------------------------------------------------
-
 ## 链接
 
-- **本用户库加载地址：**[https://gitee.com/ironpanda/ext-DFRobotHCHOSensor](https://gitee.com/ironpanda/ext-DFRobotHCHOSensor)
-- **Mind+下载地址：**[http://mindplus.cc](http://mindplus.cc)
+- **本用户库加载地址：**
+
+  GitHub：[https://github.com/chenzhongxian/ext-DFRobotHCHOSensor](https://github.com/chenzhongxian/ext-DFRobotHCHOSensor)
+
+  或：码云（推荐国内用户使用）：[https://gitee.com/ironpanda/ext-DFRobotHCHOSensor](https://gitee.com/ironpanda/ext-DFRobotHCHOSensor) 
+
+- **Mind+ 软件下载地址：**[http://mindplus.cc](http://mindplus.cc)
 
 ## 简介
 
