@@ -15,7 +15,7 @@
 ## 简介
 
 - **产品链接：**[https://www.dfrobot.com.cn/goods-1373.html](https://www.dfrobot.com.cn/goods-1373.html)
-- **介绍：**本扩展库为 DFRobot HCHO甲醛传感器（SEN0231）设计，支持 Mind+ 导入库
+- **介绍：**本扩展库为 DFRobot HCHO甲醛传感器（SEN0231）设计，支持 Mind+ 导入库，**要求 Mind+ 软件版本为 1.6.2 及以上**。
 
 ## 导入教程
 
@@ -81,10 +81,13 @@ MIT
 ## 硬件支持
 
 MCU                | JavaScript    | Arduino   | MicroPython    | Remarks
------------------- | :----------: | :----------: | :---------: | -----
+:----------------: | :----------: | :----------: | :---------: | :---:
 micro:bit        |             |       √       |             | 
 mPython（掌控版）        |             |        √      |             | 
 Arduino Uno    |             |        √      |             | 
+Arduino Leonardo | | √ | | 
+Arduino Nano | | √ | | 
+Arduino Mega2560 | | √ | | 
 
 ## 鸣谢
 
@@ -92,5 +95,6 @@ Arduino Uno    |             |        √      |             |
 
 ## 更新日志
 
-- V0.1.0 20200131 第一版发布
+- V0.1.0 20200130 第一版发布
+- V0.2.0 20200131 更新支持 Arduino Leonardo、Nano、Mega2560
 

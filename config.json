@@ -19,7 +19,7 @@
     "asset": {
         "arduinoC": {
             "dir": "arduinoC/",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "board": [
                 "arduino",
                 "arduinounor3",
@@ -32,6 +32,10 @@
             "main": "main.ts",
             "files": [
                 "_menus/arduino.json",
+                "_menus/arduinonano.json",
+                "_menus/arduinounor3.json",
+                "_menus/leonardo.json",
+                "_menus/mega2560.json",
                 "_menus/esp32.json",
                 "_menus/microbit.json",
                 "_locales/zh-cn.json",
@@ -40,6 +44,7 @@
                 "libraries/DFRobotHCHOSensor/DFRobotHCHOSensor.h",
                 "libraries/includes.json",
                 "libraries/DFRobotHCHOSensor/uno/DFRobotHCHOSensor.cpp.o",
+                "libraries/DFRobotHCHOSensor/leonardo/DFRobotHCHOSensor.cpp.o",
                 "libraries/DFRobotHCHOSensor/mpython/DFRobotHCHOSensor.cpp.o",
                 "libraries/DFRobotHCHOSensor/microbit/DFRobotHCHOSensor.cpp.o"
             ]

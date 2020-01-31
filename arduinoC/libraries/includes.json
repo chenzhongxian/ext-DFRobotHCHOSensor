@@ -13,6 +13,20 @@
             ]
         }
     },
+    "leonardo": {
+        "DFRobotHCHOSensor.h": {
+            "AllObj": [
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor/leonardo/DFRobotHCHOSensor.cpp.o",
+                "\\arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\leonardo\\SoftwareSerial.cpp.o"
+            ],
+            "AllIncludes": [
+                "/arduino/hardware/arduino/avr/cores/arduino",
+                "/arduino/hardware/arduino/avr/variants/leonardo",
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor",
+                "/arduino/hardware/arduino/avr/libraries/SoftwareSerial"
+            ]
+        }
+    },
     "mpython": {
         "DFRobotHCHOSensor.h": {
             "AllObj": [

@@ -55,14 +55,14 @@ namespace HCHOSensor {
         Generator.addInclude("includeHCHO", "#include <DFRobotHCHOSensor.h>");
         if (Generator.board === 'arduino') {
             Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
-        // } else if (Generator.board === 'arduinounor3') {
-        //     Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
-        // } else if (Generator.board === 'arduinonano') {
-        //     Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
-        // } else if (Generator.board === 'leonardo') {
-        //     Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
-        // } else if (Generator.board === 'mega2560') {
-        //     Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
+        } else if (Generator.board === 'arduinounor3') {
+            Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
+        } else if (Generator.board === 'arduinonano') {
+            Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
+        } else if (Generator.board === 'leonardo') {
+            Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
+        } else if (Generator.board === 'mega2560') {
+            Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 5.0);`);
         } else {
             Generator.addObject("HCHOObject" + ax, "DFRobotHCHOSensor", `hchoSensor(${ax}, 3.3);`);
         }
