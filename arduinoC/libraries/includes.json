@@ -27,6 +27,20 @@
             ]
         }
     },
+    "mega2560": {
+        "DFRobotHCHOSensor.h": {
+            "AllObj": [
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor/mega2560/DFRobotHCHOSensor.cpp.o",
+                "\\arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\mega2560\\SoftwareSerial.cpp.o"
+            ],
+            "AllIncludes": [
+                "/arduino/hardware/arduino/avr/cores/arduino",
+                "/arduino/hardware/arduino/avr/variants/mega",
+                "!DFScratch/extensions/铁熊-HCHO-thirdex/arduinoC/libraries/DFRobotHCHOSensor",
+                "/arduino/hardware/arduino/avr/libraries/SoftwareSerial"
+            ]
+        }
+    },
     "mpython": {
         "DFRobotHCHOSensor.h": {
             "AllObj": [

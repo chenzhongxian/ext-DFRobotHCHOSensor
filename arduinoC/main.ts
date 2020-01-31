@@ -1,7 +1,7 @@
-
 //% color="#2F6869" iconWidth=40 iconHeight=40
 namespace HCHOSensor {
-    //% block="HCHO sensor initliallize pin [SSER] RX [SSTXD] TX [SSRXD]" blockType="command"
+    
+    //% block="HCHO sensor initliallize pin [SSER] RX [SSRXD] TX [SSTXD]" blockType="command"
     //% SSER.shadow="dropdown" SSER.options="SSER"
     //% SSTXD.shadow="dropdown" SSTXD.options="SSTXD"
     //% SSRXD.shadow="dropdown" SSRXD.options="SSRXD"
@@ -9,18 +9,15 @@ namespace HCHOSensor {
         let sser = "hcho" + parameter.SSER.code;
         let tx = parameter.SSTXD.code;
         let rx = parameter.SSRXD.code;
-
         Generator.addInclude("includeHCHO", "#include <DFRobotHCHOSensor.h>");
         Generator.addInclude("includesoftSerial", "#include <SoftwareSerial.h>");
-        // Generator.addObject("quanjubianliang", "float", `GTVar=-1;`);
-        Generator.addObject("softSerialObject", "SoftwareSerial", `${sser}(${tx}, ${tx});`);
+        Generator.addObject("softSerialObject", "SoftwareSerial", `${sser}(${rx}, ${tx});`);
         Generator.addObject("HCHOObject" + sser, "DFRobotHCHOSensor", `hchoSensor(&${sser});`);
-        
         Generator.addSetup("HCHOSerialSetup" + sser, `${sser}.begin(9600);`);
         Generator.addSetup("HCHOSerialListen" + sser, `${sser}.listen();`);
     }
 
-    //% block="HCHO sensor initliallize pin [SER] RX [TXD] TX [RXD]" blockType="command"
+    //% block="HCHO sensor initliallize pin [SER] RX [RXD] TX [TXD]" blockType="command"
     //% SER.shadow="dropdown" SER.options="SER"
     //% RXD.shadow="dropdown" RXD.options="RXD"
     //% TXD.shadow="dropdown" TXD.options="TXD"
@@ -32,10 +29,19 @@ namespace HCHOSensor {
         Generator.addObject("HCHOObject" + ser, "DFRobotHCHOSensor", `hchoSensor(&${ser});`);
         if (Generator.board === 'arduino') {
             Generator.addSetup("HCHOSerialSetup", `${ser}.begin(9600);`);
+        } else if (Generator.board === 'arduinonano') {
+            Generator.addSetup("HCHOSerialSetup", `${ser}.begin(9600);`);
+        } else if (Generator.board === 'leonardo') {
+            Generator.addSetup("HCHOSerialSetup", `${ser}.begin(9600);`);
+        } else if (Generator.board === 'mega2560') {
+            Generator.addSetup("HCHOSerialSetup", `${ser}.begin(9600);`);
+        } else if (Generator.board === 'arduinounor3') {
+            Generator.addSetup("HCHOSerialSetup", `${ser}.begin(9600);`);
+        } else if (Generator.board === 'microbit') {
+            Generator.addSetup("HCHOSerialSetup", `${ser}.begin(9600, ${rx}, ${tx});`);
         } else if (Generator.board === 'esp32') {
-            Generator.addSetup("HCHOSerialSetup", `${ser}.begin(9600,${rx}, ${tx});`);
+            Generator.addSetup("HCHOSerialSetup", `${ser}.begin(9600, ${rx}, ${tx});`);
         }
-        // Generator.addSetup("HCHOSerialListen" + ser, `${ser}.listen();`);
     }
 
     //% block="HCHO sensor available" blockType="boolean"

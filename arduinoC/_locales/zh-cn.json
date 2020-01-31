@@ -1,6 +1,6 @@
 {
-    "HCHOSensor.beginSoftSerial|block": "甲醛传感器 初始化为 [SSER] RX [SSTXD] TX [SSRXD]",
-    "HCHOSensor.beginSerial|block": "甲醛传感器 初始化为 [SER] RX [TXD] TX [RXD]",
+    "HCHOSensor.beginSoftSerial|block": "甲醛传感器 初始化为 [SSER] RX [SSRXD] TX [SSTXD]",
+    "HCHOSensor.beginSerial|block": "甲醛传感器 初始化为 [SER] RX [RXD] TX [TXD]",
     "HCHOSensor.available|block": "甲醛传感器 有数据返回？",
     "HCHOSensor.uartReadPPM|block": "读取甲醛传感器的值（UART模式）",
     "HCHOSensor.dacReadPPM|block": "读取甲醛传感器的值 引脚 [APIN] （DAC模式）",

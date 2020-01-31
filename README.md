@@ -86,15 +86,15 @@ micro:bit        |             |       √       |             |
 mPython（掌控版）        |             |        √      |             | 
 Arduino Uno    |             |        √      |             | 
 Arduino Leonardo | | √ | | 
-Arduino Nano | | √ | | 
 Arduino Mega2560 | | √ | | 
 
 ## 鸣谢
 
-感谢 DFRobot **李亮**老师提供技术支持。  
+感谢 DFRobot **李亮** 老师提供技术支持。 
+感谢 **王尧坤** 老师帮助测试。
 
 ## 更新日志
 
 - V0.1.0 20200130 第一版发布
-- V0.2.0 20200131 更新支持 Arduino Leonardo、Nano、Mega2560
+- V0.2.1 20200131 更新支持 Arduino Leonardo、Mega2560，并修复串口顺序的 bug
 
